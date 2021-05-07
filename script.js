@@ -9,12 +9,12 @@ function comparison () {
   userInput = document.getElementById('input').value
   userInput = parseInt(userInput)
 
-// check if userInput us less than 0
+  // check if userInput us less than 0
   if (userInput < 0) {
     document.getElementById('answer').innerHTML = 'Negative'
   } else {
 // if (userInput < 0) is true than anything in between the braces will happen. if fales than the other one will happen
-    document.getElementById('answer').innerHTML = 'Positive'
+ document.getElementById('answer').innerHTML = 'Positive'
   }
 
 }
