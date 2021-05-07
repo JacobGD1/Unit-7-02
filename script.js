@@ -13,8 +13,7 @@ function comparison () {
   if (userInput < 0) {
     document.getElementById('answer').innerHTML = 'Negative'
   } else {
-// if (userInput < 0) is true than anything in between the braces will happen. if fales than the other one will happen
- document.getElementById('answer').innerHTML = 'Positive'
+    // if (userInput < 0) is true than anything in between the braces will happen. if fales than the other one will happen
+    document.getElementById('answer').innerHTML = 'Positive'
   }
-
 }
